@@ -27,27 +27,27 @@
     * We downloaded jpec images of textures.
     * We converted jpec images to bmp (24 bit depth).
     * We put our textures into the code while scaling the images in the X-axis.
-    * Result : ![](K-Space.png) 
+    * Result : ![](finalproject/data/2.jpg) 
 
 2. A menu pinned to the right mouse button to change the floor texture:
     * We implemented the seven floors in the screen-menu function.
-    * Result : ![](K-Space.png) 
+    * Result : ![](finalproject/data/1.jpg) 
 
 3. Objects Download : 
     * Implementing objects in the scene then scaling them to the suitable size and translating them to the required position. 
-    * Result : ![](K-Space.png) 
 
 4. Three Animations : \
 Results :
-    * Dancing \
-    ![](ezgif.com-video-to-gif.gif)
+    * Moving \
+    ![](finalproject/data/m1.gif) \
+    ![](finalproject/data/m2.gif)
 
     * Jumping \
-    ![](ezgif.com-video-to-gif.gif)
+    ![](finalproject/data/j.gif)
 
     * Interaction with object : \
     Sitting on the chair \
-    ![](ezgif.com-video-to-gif.gif)
+    ![](finalproject/data/o.gif)
     
 
 ## 4. Problems Faced and Their Fixes
@@ -58,7 +58,7 @@ Results :
 gcc -o main main.cpp imageloader.cpp glm.cpp -lGL -lGLU -lglut -lm -lstdc++ 
 
 * There was a problem in most of the images that they appeared in a different colour (Light blue colour)
-    * This was fixed by trying many different images till we found the suitable ones.
+    * This was fixed by converting images to 24-bit depth.
 
 * Styling of robot and putting it in a certain position.
     * It was adjusted bs scaling and translating the robot.
